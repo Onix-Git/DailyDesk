@@ -1,9 +1,9 @@
-#🧠 **DailyDesk**
+# 🧠 **DailyDesk**
 
 DailyDesk est une application web légère et offline-first qui permet de gérer tâches, routines, notes et productivité quotidienne, directement depuis le navigateur, sans backend ni compte utilisateur.
 Le projet met l’accent sur l’utilité réelle, la simplicité d’usage, la performance et les bonnes pratiques front-end.
 
-#🎯 **Objectif du projet**
+# 🎯 **Objectif du projet**
 
 Créer une plateforme web utile au quotidien en utilisant uniquement les technologies fondamentales du web :
 
@@ -19,9 +19,9 @@ Open source
 Sans dépendance externe
 Sécurité et confidentialité par conception
 
-#✨ **Fonctionnalités**
+# ✨ **Fonctionnalités**
 
-#📋 **Gestion des tâches**
+# 📋 **Gestion des tâches**
 
 Création de tâches via une interface dédiée
 Validation par case à cocher
@@ -29,7 +29,7 @@ Suppression automatique 24h après validation
 Édition par double-clic
 Suppression manuelle
 
-#🔁 **Routines intelligentes**
+# 🔁 **Routines intelligentes**
 
 Création de routines avec fréquence :
 quotidienne
@@ -40,19 +40,19 @@ Suivi de streaks visibles 🔥
 Édition et suppression
 Intégration au dashboard du jour
 
-#📝 **Notes rapides**
+# 📝 **Notes rapides**
 
 Zone de texte libre
 Sauvegarde automatique
 Données persistantes
 
-#📊 **Statistiques**
+# 📊 **Statistiques**
 
 Nombre de tâches complétées
 Nombre de routines complétées
 Vue synthétique de l’activité
 
-#🌗 **Interface & UX**
+# 🌗 **Interface & UX**
 
 Navigation simple par sections
 Mode clair / sombre
@@ -60,14 +60,14 @@ Animations CSS légères
 Design responsive
 Interaction fluide (sans rechargement)
 
-#🔥 **Streaks & productivité**
+# 🔥 **Streaks & productivité**
 
 Chaque routine possède un compteur de jours consécutifs réalisés :
 Les streaks augmentent uniquement si la routine est complétée dans la bonne période
 Ils se réinitialisent automatiquement en cas de rupture
 Affichage clair directement dans l’interface
 
-#🔐 **Sécurité & confidentialité**
+# 🔐 **Sécurité & confidentialité**
 
 Aucune donnée envoyée sur un serveur
 Aucune authentification requise
@@ -75,7 +75,7 @@ Données stockées localement via localStorage
 Fonctionnement hors ligne
 Aucun tracker, aucun cookie tiers
 
-#⚙️ **Architecture technique**
+# ⚙️ **Architecture technique**
 
 Application monofichier (index.html)
 HTML sémantique
@@ -84,7 +84,7 @@ JavaScript ES6 structuré
 Gestion du temps (dates, intervalles, reset automatique)
 État centralisé persistant
 
-#📱 **Progressive Web App (PWA)**
+# 📱 **Progressive Web App (PWA)**
 
 Application installable sur desktop et mobile
 Fonctionnement offline
@@ -93,7 +93,7 @@ Préparation via :
 manifest.json
 Service Worker
 
-#🚀 **Installation & utilisation**
+# 🚀 **Installation & utilisation**
 
 Cloner le dépôt ou télécharger index.html
 Entrer le lien : 
@@ -102,14 +102,14 @@ L’application est immédiatement
 utilisable
 Aucune configuration requise.
 
-#🧪 **Compatibilité**
+# 🧪 **Compatibilité**
 
 Chrome
 Firefox
 Edge
 Safari (desktop & mobile)
 
-#🏁 **Contexte**
+# 🏁 **Contexte**
 
 Projet réalisé dans le cadre du tournoi CodeSpace – Développement Web
 Durée : 7 jours
@@ -121,10 +121,10 @@ performance
 UX/UI
 bonnes pratiques & sécurité
 
-#👤 **Auteur**
+# 👤 **Auteur**
 
 Développé par Onix
 
-#🏆 **Note pour le jury**
+# 🏆 **Note pour le jury**
 
 DailyDesk a été pensé comme un outil simple, rapide et réellement utile, démontrant une maîtrise solide des fondamentaux du web, sans dépendre d’un backend ou de frameworks lourds.
