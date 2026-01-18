@@ -1,114 +1,130 @@
-# 🧠 DailyDesk
+#🧠 **DailyDesk**
 
-**DailyDesk** est une application web légère et rapide qui centralise les outils essentiels du quotidien : tâches, routines, notes et statistiques, le tout **directement dans le navigateur**, sans backend.
+DailyDesk est une application web légère et offline-first qui permet de gérer tâches, routines, notes et productivité quotidienne, directement depuis le navigateur, sans backend ni compte utilisateur.
+Le projet met l’accent sur l’utilité réelle, la simplicité d’usage, la performance et les bonnes pratiques front-end.
 
----
+#🎯 **Objectif du projet**
 
-## 🎯 Objectif du projet
+Créer une plateforme web utile au quotidien en utilisant uniquement les technologies fondamentales du web :
 
-Créer une plateforme web **utile au quotidien**, performante et simple d’utilisation, en utilisant uniquement les technologies fondamentales du web :
+HTML
+CSS
+JavaScript (vanilla)
 
-* HTML
-* CSS
-* JavaScript (vanilla)
+#Contraintes respectées :
 
-Aucune dépendance externe, aucune base de données distante, aucune création de compte.
+Projet solo
+Application fonctionnelle et présentable
+Open source
+Sans dépendance externe
+Sécurité et confidentialité par conception
 
----
+#✨ **Fonctionnalités**
 
-## ✨ Fonctionnalités
+#📋 **Gestion des tâches**
 
-### 📋 Gestion des tâches
+Création de tâches via une interface dédiée
+Validation par case à cocher
+Suppression automatique 24h après validation
+Édition par double-clic
+Suppression manuelle
 
-* Ajouter des tâches
-* Marquer comme complétées
-* Sauvegarde automatique
+#🔁 **Routines intelligentes**
 
-### 🔁 Routines quotidiennes
+Création de routines avec fréquence :
+quotidienne
+hebdomadaire
+mensuelle
+Réinitialisation automatique selon la fréquence
+Suivi de streaks visibles 🔥
+Édition et suppression
+Intégration au dashboard du jour
 
-* Création de routines récurrentes
-* Suivi journalier
-* Intégration au dashboard du jour
+#📝 **Notes rapides**
 
-### 📝 Notes rapides
+Zone de texte libre
+Sauvegarde automatique
+Données persistantes
 
-* Zone de texte libre
-* Sauvegarde instantanée
+#📊 **Statistiques**
 
-### 📊 Statistiques
+Nombre de tâches complétées
+Nombre de routines complétées
+Vue synthétique de l’activité
 
-* Nombre de tâches et routines complétées
-* Vue synthétique de la productivité
+#🌗 **Interface & UX**
 
-### 🌗 Interface
+Navigation simple par sections
+Mode clair / sombre
+Animations CSS légères
+Design responsive
+Interaction fluide (sans rechargement)
 
-* Navigation simple par sections
-* Mode clair / sombre
-* Design responsive
+#🔥 **Streaks & productivité**
 
----
+Chaque routine possède un compteur de jours consécutifs réalisés :
+Les streaks augmentent uniquement si la routine est complétée dans la bonne période
+Ils se réinitialisent automatiquement en cas de rupture
+Affichage clair directement dans l’interface
 
-## 🔐 Sécurité & confidentialité
+#🔐 **Sécurité & confidentialité**
 
-* Aucune donnée envoyée sur un serveur
-* Toutes les informations sont stockées localement via `localStorage`
-* Aucune dépendance externe
-* Fonctionnement hors ligne
+Aucune donnée envoyée sur un serveur
+Aucune authentification requise
+Données stockées localement via localStorage
+Fonctionnement hors ligne
+Aucun tracker, aucun cookie tiers
 
----
+#⚙️ **Architecture technique**
 
-## ⚙️ Architecture technique
+Application monofichier (index.html)
+HTML sémantique
+CSS moderne avec transitions et animations
+JavaScript ES6 structuré
+Gestion du temps (dates, intervalles, reset automatique)
+État centralisé persistant
 
-* Application **monofichier** (`index.html`)
-* CSS intégré pour un chargement rapide
-* JavaScript structuré avec état centralisé
-* Gestion de l’état via un objet global persisté en local
+#📱 **Progressive Web App (PWA)**
 
----
+Application installable sur desktop et mobile
+Fonctionnement offline
+Chargement rapide
+Préparation via :
+manifest.json
+Service Worker
 
-## 🚀 Installation & utilisation
+#🚀 **Installation & utilisation**
 
-1. Cloner le dépôt ou télécharger `index.html`
-2. Ouvrir le fichier dans un navigateur moderne
-3. L’application est immédiatement fonctionnelle
+Cloner le dépôt ou télécharger index.html
+Entrer le lien : 
+https://daily-desk.netlify.app/ sur votre navigateur
+L’application est immédiatement 
+utilisable
+Aucune configuration requise.
 
-Aucune configuration nécessaire.
+#🧪 **Compatibilité**
 
----
+Chrome
+Firefox
+Edge
+Safari (desktop & mobile)
 
-## 📦 Stack utilisée
+#🏁 **Contexte**
 
-* HTML5 sémantique
-* CSS moderne (Flexbox)
-* JavaScript ES6
-* Web Storage API (`localStorage`)
+Projet réalisé dans le cadre du tournoi CodeSpace – Développement Web
+Durée : 7 jours
+Stack libre
+Évaluation basée sur :
+utilité
+qualité du code
+performance
+UX/UI
+bonnes pratiques & sécurité
 
----
+#👤 **Auteur**
 
-## 🏁 Contexte
+Développé par Onix
 
-Projet réalisé dans le cadre du **tournoi CodeSpace – Développement Web**
-Durée : **7 jours**
-Contraintes :
+#🏆 **Note pour le jury**
 
-* Projet solo
-* Stack libre
-* Projet fonctionnel et présentable
-
----
-
-## 📌 Axes d’amélioration possibles
-
-* Progressive Web App (PWA)
-* Streaks journaliers
-* Export / import des données
-* Accessibilité avancée (ARIA)
-* Animations CSS supplémentaires
-
----
-
-## 👤 Auteur
-
-Projet développé par Onix
-
-
+DailyDesk a été pensé comme un outil simple, rapide et réellement utile, démontrant une maîtrise solide des fondamentaux du web, sans dépendre d’un backend ou de frameworks lourds.
